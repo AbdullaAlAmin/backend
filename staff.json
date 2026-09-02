@@ -1,0 +1,9 @@
+{
+  "staffId": 1003,
+  "name": "Michael Brown",
+  "contractType": "Part Time",
+  "role": "Farm Worker",
+  "standardHours": 25,
+  "standardRate": 29,
+  "overtimeRate": 43.50
+}
