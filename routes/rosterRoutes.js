@@ -24,7 +24,7 @@ router.get("/:id", (req, res) => {
 
     if(!member){
         return res.status(404).json({
-            message: "Member not found"
+            message: "Roster not found"
         })
     }
 
@@ -138,7 +138,7 @@ router.delete("/:id", (req, res) => {
     const deleteRoster = rosters.splice(index, 1);
 
     res.json({
-        message: "Roster deleted succesfully",
+        message: "Roster deleted successfully",
         roster: deleteRoster[0]
     });
 });

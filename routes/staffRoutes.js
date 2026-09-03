@@ -25,8 +25,6 @@ router.get("/:id", (req, res) => {
 
 //Create new staff
 router.post("/", (req, res) => {
-    console.log("Received body:", req.body);
-
     const newStaff = req.body;
 
     if(!newStaff.staffId || !newStaff.name || !newStaff.contractType || !newStaff.role) {
